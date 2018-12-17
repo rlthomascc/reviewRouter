@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.needs-validation {
+    padding: 20px 20px 20px 20px;
+}
+
+.adminButton, .clientButton {
+    margin:0 auto;
+    margin-right:10px;
+}
+
+#container {
+    /* margin: auto;
+    width: 15%; */
+}
+
