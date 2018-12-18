@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import Modal from 'react-awesome-modal';
+import $ from 'jquery';
+import { isRegExp } from 'util';
 
 class Form extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            visible: false
+            visible: false,
+            review: ''
         }
     }
 
@@ -40,9 +43,36 @@ class Form extends Component {
         );
     }
 
+    renderReview(e) {
+        console.log(e, 'IN RENDER REVIEW')
+        this.setState({
+            review: e
+        })
+    }
+
+
     renderData(e) {
         e.preventDefault();
-        console.log(e.target.fullName.value, e.target.experienceRadio.value, e.target.recommendRating.value, e.target.comments.value, e.target.marketing.value, e.target.improvements.value)
+        let t = e.target;
+        this.renderReview(t.comments.value);
+        $.ajax ({
+            method: "POST",
+            url: '/review',
+            data: {
+                fullName: t.fullName.value,
+                experienceRating: t.experienceRadio.value,
+                recommendationRating: t.recommendRating.value,
+                review: t.comments.value,
+                marketingConsent: t.marketing.value,
+                improvements: t.improvements.value
+            },
+            success: function() {
+                console.log('Data sent to server successfully.')
+            },
+            error: function(err) {
+                console.log(err);
+            }
+        })
     }
 
 
