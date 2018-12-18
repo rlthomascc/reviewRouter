@@ -1,20 +1,31 @@
 import React, { Component } from 'react';
-import Modal from 'react-awesome-modal';
-import $ from 'jquery';
+import Form from './components/Form.jsx';
+import Navbar from './components/Navbar.jsx';
 
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-        test: ''
+        router: 'home'
         }
     }
 
 
+    renderView() {
+        if (this.state.router === 'home') {
+            return (
+                <div>
+                    <Navbar />
+                    <Form />
+                </div>
+            );
+        }
+    }
+
 
     render() {
         return (
-            <h1>Hello World</h1>
+            this.renderView()
         );
     };
 };
