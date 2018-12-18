@@ -1,9 +1,53 @@
 body {
+    background-image:  url('https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2038&q=80');
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #form {
-    padding: 20px 20px 20px 20px;
+    padding: 100px 20px 100px 20px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    background-color: white;
 }
 
+#navbar {
+    font-family: arial;
+}
 
+#contestRules {
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#contest {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+#text {
+    position: absolute;
+    right: 70px;
+    color: dodgerblue;
+}
+
+#call {
+    position: absolute;
+    right: 200px;
+    color: dodgerblue;
+}
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+#facebook {
+    padding-right: 10px;
+}

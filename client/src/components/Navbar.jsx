@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import Img from 'react-image';
 
 class Navbar extends Component {
 
     navBar() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <a className="navbar-brand" href="#" onClick={() => this.props.changeView('home')}>The Del Real Group Logo Here</a>
+
+                <nav id="navbar" className="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <Img src="http://static1.squarespace.com/static/558afaebe4b04871ce600780/t/558afbc9e4b01d698d1a354f/1435171786494/smaller.png?format=1500w" width="75px" height="75px" />
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,6 +24,8 @@ class Navbar extends Component {
                                 <a className="nav-link" href="https://www.thedelrealgroup.com/contactus/" target="_blank">Contact Us</a>
                             </li>
                         </ul>
+                        <a id="call" className="navbar-text" href="tel:2096907744">Call Instantly</a>
+                        <a id="text" className="navbar-text" href="sms:2096907744">Text Instantly</a>
                     </div>
                 </nav>
             </div>
