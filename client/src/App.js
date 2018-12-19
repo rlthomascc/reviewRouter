@@ -11,15 +11,18 @@ class App extends Component {
         }
     }
 
-
-
+    setRouter(e) {
+        this.setState({
+            router: e
+        })
+    }
 
     renderView() {
         if (this.state.router === 'home') {
             return (
                 <div>
                     <Navbar />
-                    <Form />
+                    <Form reroute={this.setRouter.bind(this)}/>
                     <Footer />
                 </div>
             );
