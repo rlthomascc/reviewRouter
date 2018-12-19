@@ -40,7 +40,7 @@ class Form extends Component {
                     Winner selection: The winner, selected at random, will be contacted by phone or email on the first business day of the following month with instructions on how to collect his or her prize.<br></br>
                     Offer void where prohibited.</p>
             </div>
-        );
+        )
     }
 
     renderReview(e) {
