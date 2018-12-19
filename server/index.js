@@ -10,7 +10,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 
 app.post('/review', (req, res) => {
-
+  db.save(req.body);
+  res.send('data has been sent from server to database')
 });
 
 

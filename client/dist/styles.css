@@ -51,3 +51,18 @@ body {
 #facebook {
     padding-right: 10px;
 }
+
+#reviews {
+    padding: 100px 10px 150px 10px;
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#reviewsCopyPaste {
+    padding: 10px 10px 10px 10px;
+    background-color: #cbcbcb;
+    text-align: center;
+    font-color: black;
+}

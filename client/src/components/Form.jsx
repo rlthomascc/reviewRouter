@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-awesome-modal';
 import $ from 'jquery';
-import { isRegExp } from 'util';
+// import { isRegExp } from 'util';
 
 class Form extends Component {
     constructor(props) {
@@ -72,22 +72,23 @@ class Form extends Component {
                 console.log(err);
             }
         });
+        this.props.reroute('reviews', t.comments.value);
     }
 
 
     form() {
         return (
             <div id="form" onSubmit={this.renderData.bind(this)}>
-            <h3>GIFT CARD INFORMATION HERE</h3>
+            <h3>GIFT CARD INFORMATION HERE!</h3>
                 <form>
 
                     <div className="form-group ">
-                        <label for="full name"><b>Full Name</b></label>
+                        <label><b>Full Name</b></label>
                         <input type="text" className="form-control" id="fullName" required />
                     </div>
 
                     <div >
-                        <label for="experienceRating"><b>How would you rate your overall experience with The Del Real Group</b></label>
+                        <label><b>How would you rate your overall experience with The Del Real Group</b></label>
                     </div>
                     <div >
                         <div className="form-check form-check-inline">
@@ -114,7 +115,7 @@ class Form extends Component {
                     <br></br>
 
                     <div >
-                        <label for="recommendRating"><b>Will you recommend The Del Real Group to friends and family based on your experience?</b> </label>
+                        <label ><b>Will you recommend The Del Real Group to friends and family based on your experience?</b> </label>
                     </div>
                     <div >
                         <div className="form-check form-check-inline">
@@ -129,14 +130,14 @@ class Form extends Component {
                     <br></br>
 
                     <div >
-                        <label for="contacted"><b>Please provide your comments about your loan experience, the people you worked with at <br></br>
+                        <label ><b>Please provide your comments about your loan experience, the people you worked with at <br></br>
                         The Del Real Group, or any suggestions you may have.</b></label>
                         <textarea className="form-control" id="comments" rows="3" required/>
                     </div>
                     <br></br>
 
                     <div >
-                        <label for="marketing"><b>May we use your feedback from this survey as a testimonial for marketing purposes?</b> </label>
+                        <label ><b>May we use your feedback from this survey as a testimonial for marketing purposes?</b> </label>
                     </div>
                     <div >
                         <div className="form-check form-check-inline">
@@ -151,13 +152,13 @@ class Form extends Component {
                     <br></br>
 
                     <div className="form-group ">
-                        <label for="improvements"><i>The Del Real Group is always looking for ways that we can improve your real estate experience.</i><br></br>
+                        <label ><i>The Del Real Group is always looking for ways that we can improve your real estate experience.</i><br></br>
                         <b>What is at least one thing we can do to improve?</b></label>
                         <input type="text" className="form-control" id="improvements" required />
                     </div>
                     <br></br>
 
-                    <button className="btn btn-primary btn-lg" type="submit" onClick={() => this.props.reroute('reviews')}>Submit</button>
+                    <button className="btn btn-primary btn-lg" type="submit" >Submit</button>
                 </form>
                 <br></br>
                 <input id="contest" type="button" value="*Click here to see contest rules." onClick={() => this.openModal()} />
