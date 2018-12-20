@@ -29,9 +29,9 @@ class Form extends Component {
     contestRules() {
         return (
             <div id="contestRules">
-                <h1>The Del Real Group $500 Home Depot Gift Card Giveaway Rules</h1>
+                <h1>The Del Real Group $500 Gift Card Giveaway Rules</h1>
                 <p>Contest sponsor: The Del Real Group, 1600 N. Carpenter Rd, Modesto, CA 95351. <br></br>
-                    Prize: One $500 Home Depot Gift Card each month, delivered electronically (no cost to winner); verifiable retail value of $500.<br></br>
+                    Prize: One $500 Gift Card each month, delivered electronically (no cost to winner); verifiable retail value of $500.<br></br>
                     Odds of winning: Dependent on number of client surveys submitted each month. Each survey submission counts for one entry.<br></br>
                     Restrictions:<br></br>
                     Must be 18 years or older to participate.<br></br>
