@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/delrealgroup/Reviews');
+const config = require('../sensitive.js');
+// mongoose.connect('mongodb://localhost/delrealgroup/Reviews');
+// mongoose.connect('mongodb://TheDelRealGroup:Delreal1.pass@ds245357.mlab.com:45357/thedelrealgroup')
+mongoose.connect('mongodb://TheDelRealGroup:' + config.pass + '@ds245357.mlab.com:45357/thedelrealgroup')
 
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
