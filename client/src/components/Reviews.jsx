@@ -6,7 +6,13 @@ class Reviews extends Component {
         super(props);
     }
 
-
+    copyData() {
+        console.log("you clicked me!!")
+        let copyText = document.getElementById("COPYPASTE");
+        copyText.select();
+        document.execCommand("copy");
+        alert("Copied the text: " + copyText.value);
+    }
 
     render() {
         return (
@@ -31,7 +37,8 @@ class Reviews extends Component {
                 <br></br>
                 <br></br>
                 <div id="reviewsCopyPaste">
-                    <p>{this.props.bio}</p>
+                <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
+                <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
                 </div>
                 <br></br>
                 <br></br>
