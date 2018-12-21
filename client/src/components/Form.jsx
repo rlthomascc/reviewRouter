@@ -29,16 +29,15 @@ class Form extends Component {
     contestRules() {
         return (
             <div id="contestRules">
-                <h1>The Del Real Group $500 Gift Card Giveaway Rules</h1>
-                <p>Contest sponsor: The Del Real Group, 1600 N. Carpenter Rd, Modesto, CA 95351. <br></br>
-                    Prize: One $500 Gift Card each month, delivered electronically (no cost to winner); verifiable retail value of $500.<br></br>
-                    Odds of winning: Dependent on number of client surveys submitted each month. Each survey submission counts for one entry.<br></br>
-                    Restrictions:<br></br>
-                    Must be 18 years or older to participate.<br></br>
-                    Must be a resident of the United States in order to participate.<br></br>
-                    Entry dates: Drawing is run on a monthly basis; surveys submitted between the first day and last day of each month will only be counted towards that month’s contest.<br></br>
-                    Winner selection: The winner, selected at random, will be contacted by phone or email on the first business day of the following month with instructions on how to collect his or her prize.<br></br>
-                    Offer void where prohibited.</p>
+                <h1 id="contestRulesHeader">The Del Real Group $500 Visa Gift Card Giveaway Rules</h1>
+                <p><b>Contest sponsor:</b> The Del Real Group, 1600 N. Carpenter Rd, Modesto, CA 95351. <br></br>
+                    <b>Prize:</b> One $500 Visa Gift Card each quarter, verifiable retail value of $500. Winner will be contacted by their team agent.<br></br>
+                    <b>Odds of winning:</b> Dependent on number of client reviews submitted each quarter. Each review submission counts for one entry.<br></br>
+                    <b>Restrictions:</b><br></br>
+                    <i>Must be 18 years or older to participate.</i><br></br>
+                    <b>Entry dates:</b> Drawing is run on a quarterly basis; reviews submitted between the first day and last day of each quarter will only be counted towards that quarter's contest.<br></br>
+                    <b>Winner selection:</b> The winner, selected at random, will be contacted by phone or email on with instructions on how to collect his or her prize.<br></br>
+                    <i>Offer void where prohibited.</i></p>
             </div>
         )
     }
@@ -79,7 +78,11 @@ class Form extends Component {
     form() {
         return (
             <div id="form" onSubmit={this.renderData.bind(this)}>
-            <h3>GIFT CARD INFORMATION HERE!</h3>
+            <h3 id="formHeader">Thank you for taking a few minutes out of your day to <br></br>
+            leave us reviews. For taking your time, we will add your name to our <br></br>
+            quarterly $500 Visa Gift Card Giveaway!</h3>
+            <br></br>
+            <br></br>
                 <form>
 
                     <div className="form-group ">
@@ -130,7 +133,7 @@ class Form extends Component {
                     <br></br>
 
                     <div >
-                        <label ><b>Please provide your comments about your loan experience, the people you worked with at <br></br>
+                        <label ><b>Please provide your comments about your Real Estate experience, the people you worked with at <br></br>
                         The Del Real Group, or any suggestions you may have.</b></label>
                         <textarea className="form-control" id="comments" rows="3" required/>
                     </div>
@@ -152,8 +155,8 @@ class Form extends Component {
                     <br></br>
 
                     <div className="form-group ">
-                        <label ><i>The Del Real Group is always looking for ways that we can improve your real estate experience.</i><br></br>
-                        <b>What is at least one thing we can do to improve?</b></label>
+                        <label ><i>The Del Real Group is always looking for ways to improve.</i><br></br>
+                        <b>What is at least one thing we can improve on?</b></label>
                         <input type="text" className="form-control" id="improvements" required />
                     </div>
                     <br></br>

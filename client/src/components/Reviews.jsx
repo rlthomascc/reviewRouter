@@ -21,7 +21,7 @@ class Reviews extends Component {
                 <br></br>
                 <p id="reviewsBody">If you will take a few more minutes to post your review on the popular review sites listed below, <b>we will add an additional entry
                 for every review.</b> Today's shoppers want to know which companies and services are the best, and your review helps us grow
-                our business. <i>This is the best 'Thank You' you can give me!</i>
+                our business. <i>This is the best 'Thank You' you can give me.</i>
                 <br></br>
                 <br></br>
                 <br></br>

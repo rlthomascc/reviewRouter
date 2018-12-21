@@ -66,3 +66,13 @@ body {
     text-align: center;
     font-color: black;
 }
+
+#formHeader {
+    color: #CDA135;
+    font-weight: bold;
+}
+
+#contestRulesHeader {
+    color: #CDA135;
+    font-weight: bold;
+}
