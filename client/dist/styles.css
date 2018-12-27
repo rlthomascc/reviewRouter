@@ -79,7 +79,7 @@ body {
     font-weight: bold;
 }
 
-#contestRulesHeader {
+#contestRulesHeader, #almostDone {
     color: #CDA135;
     font-weight: bold;
 }
@@ -97,4 +97,13 @@ body {
 #marketing {
     width: 20px;
     height: 20px;
+}
+
+#step {
+    color: red;
+    font-weight: bold;
+}
+
+#almostDoneParagraph {
+    font-size: 18px;
 }
