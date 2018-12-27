@@ -56,7 +56,7 @@ class Reviews extends Component {
                 <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
             </div>
         );
-    }
-}
+    };
+};
 
 export default Reviews;
