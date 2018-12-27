@@ -29,7 +29,9 @@ class Form extends Component {
     contestRules() {
         return (
             <div id="contestRules">
+
                 <h1 id="contestRulesHeader">The Del Real Group $500 VISA Gift Card Giveaway Rules</h1>
+
                 <p><b>Contest sponsor:</b> The Del Real Group, 1600 N. Carpenter Rd, Modesto, CA 95351. <br></br>
                     <b>Prize:</b> One $500 VISA Gift Card each quarter, Verifiable retail value of $500. Winner will be contacted by their team realtor.<br></br>
                     <b>Odds of winning:</b> Dependent on number of client reviews submitted each quarter. Each review submission counts for one entry.<br></br>
@@ -38,6 +40,7 @@ class Form extends Component {
                     <b>Entry dates:</b> Drawing is held on a quarterly basis; reviews submitted between the first day and last day of each quarter will only be counted in that quarter's contest.<br></br>
                     <b>Winner selection:</b> The winner, selected at random, will be contacted by phone or email with instructions on how to collect his or her prize.<br></br>
                     <i>Offer void where prohibited.</i></p>
+
             </div>
         )
     }
@@ -78,13 +81,13 @@ class Form extends Component {
     form() {
         return (
             <div id="form" onSubmit={this.renderData.bind(this)}>
-            <h3 id="formHeader">Thank you for taking a few minutes out of your day to <br></br>
-            leave us reviews. As a thank you, we will add your name to our <br></br>
-            quarterly $500 VISA Gift Card Giveaway!</h3>
-            <br></br>
-            <br></br>
-                <form>
+                <h3 id="formHeader">Thank you for taking a few minutes out of your day to <br></br>
+                leave us reviews. As a thank you, we will add your name to our <br></br>
+                quarterly $500 VISA Gift Card Giveaway!</h3>
+                <br></br>
+                <br></br>
 
+                <form>
                     <div className="form-group ">
                         <label><b>Full Name</b></label>
                         <input type="text" className="form-control" id="fullName" required />
