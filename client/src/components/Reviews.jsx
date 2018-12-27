@@ -37,7 +37,6 @@ class Reviews extends Component {
                 and Google then you will have 3 entries in the drawing. Home Buyers and Sellers want to know which Real Estate agent and <br></br>
                 team offer the best services as well as experience. Your reviews will help us continue to grow our business.</i></p>
 
-
                 <div id="reviewsCopyPaste">
                 <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
                 <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
