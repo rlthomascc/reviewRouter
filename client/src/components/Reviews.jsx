@@ -43,6 +43,7 @@ class Reviews extends Component {
                 </div>
                 <br></br>
                 <br></br>
+
                 <div id="reviewButtons">
                     <a id="googleReview" href="https://www.google.com/search?q=the+del+real+group&ie=utf-8&oe=utf-8&client=firefox-b-1-ab&npsic=0&rflfq=1&rlha=0&rllag=37688080,-121058636,4090&tbm=lcl&rldimm=16470356922505957134&ved=2ahUKEwij5Kim7qbdAhXXITQIHY1yB-EQvS4wAXoECAYQEw&rldoc=1&tbs=lrf:!2m1!1e2!3sIAE,lf:1,lf_ui:2#lrd=0x80905179bdeeba05:0xe492765b79dd0f0e,3,,,&rlfi=hd:;si:16470356922505957134;mv:!3m12!1m3!1d32429.09598449403!2d-121.05778790000001!3d37.68687775!2m3!1f0!2f0!3f0!3m2!1i392!2i493!4f13.1;tbs:lrf:!2m1!1e2!3sIAE,lf:1,lf_ui:2" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
                     <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
@@ -51,6 +52,7 @@ class Reviews extends Component {
                 </div>
                 <br></br>
                 <br></br>
+
                 <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
             </div>
         );
