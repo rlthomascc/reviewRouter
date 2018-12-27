@@ -29,14 +29,14 @@ class Form extends Component {
     contestRules() {
         return (
             <div id="contestRules">
-                <h1 id="contestRulesHeader">The Del Real Group $500 Visa Gift Card Giveaway Rules</h1>
+                <h1 id="contestRulesHeader">The Del Real Group $500 VISA Gift Card Giveaway Rules</h1>
                 <p><b>Contest sponsor:</b> The Del Real Group, 1600 N. Carpenter Rd, Modesto, CA 95351. <br></br>
-                    <b>Prize:</b> One $500 Visa Gift Card each quarter, verifiable retail value of $500. Winner will be contacted by their team agent.<br></br>
+                    <b>Prize:</b> One $500 VISA Gift Card each quarter, Verifiable retail value of $500. Winner will be contacted by their team realtor.<br></br>
                     <b>Odds of winning:</b> Dependent on number of client reviews submitted each quarter. Each review submission counts for one entry.<br></br>
                     <b>Restrictions:</b><br></br>
                     <i>Must be 18 years or older to participate.</i><br></br>
-                    <b>Entry dates:</b> Drawing is run on a quarterly basis; reviews submitted between the first day and last day of each quarter will only be counted towards that quarter's contest.<br></br>
-                    <b>Winner selection:</b> The winner, selected at random, will be contacted by phone or email on with instructions on how to collect his or her prize.<br></br>
+                    <b>Entry dates:</b> Drawing is held on a quarterly basis; reviews submitted between the first day and last day of each quarter will only be counted in that quarter's contest.<br></br>
+                    <b>Winner selection:</b> The winner, selected at random, will be contacted by phone or email with instructions on how to collect his or her prize.<br></br>
                     <i>Offer void where prohibited.</i></p>
             </div>
         )
@@ -79,8 +79,8 @@ class Form extends Component {
         return (
             <div id="form" onSubmit={this.renderData.bind(this)}>
             <h3 id="formHeader">Thank you for taking a few minutes out of your day to <br></br>
-            leave us reviews. For taking your time, we will add your name to our <br></br>
-            quarterly $500 Visa Gift Card Giveaway!</h3>
+            leave us reviews. As a thank you, we will add your name to our <br></br>
+            quarterly $500 VISA Gift Card Giveaway!</h3>
             <br></br>
             <br></br>
                 <form>
@@ -118,7 +118,7 @@ class Form extends Component {
                     <br></br>
 
                     <div >
-                        <label ><b>Will you recommend The Del Real Group to friends and family based on your experience?</b> </label>
+                        <label ><b>Would you recommend The Del Real Group to friends and family based on your experience?</b> </label>
                     </div>
                     <div >
                         <div className="form-check form-check-inline">
@@ -156,7 +156,7 @@ class Form extends Component {
 
                     <div className="form-group ">
                         <label ><i>The Del Real Group is always looking for ways to improve.</i><br></br>
-                        <b>What is at least one thing we can improve on?</b></label>
+                        <b>Is there anything we can improve on?</b></label>
                         <input type="text" className="form-control" id="improvements" required />
                     </div>
                     <br></br>
