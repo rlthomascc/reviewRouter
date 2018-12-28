@@ -7,7 +7,6 @@ class Reviews extends Component {
     }
 
     copyData() {
-        console.log("you clicked me!!")
         let copyText = document.getElementById("COPYPASTE");
         copyText.select();
         document.execCommand("copy");
@@ -15,7 +14,7 @@ class Reviews extends Component {
     }
 
     render() {
-        if (this.props.agent === 'daniel'){
+        if (this.props.agent === 'Daniel'){
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Only 3 Steps away!</h1>
@@ -56,7 +55,7 @@ class Reviews extends Component {
                     <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
                 </div>
             );
-        } else if (this.props.agent === 'andy'){
+        } else if (this.props.agent === 'Andy'){
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Only 3 Steps away!</h1>
@@ -97,7 +96,7 @@ class Reviews extends Component {
                     <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
                 </div>
             );
-        } else if (this.props.agent === 'don') {
+        } else if (this.props.agent === 'Don') {
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Only 3 Steps away!</h1>
@@ -138,7 +137,7 @@ class Reviews extends Component {
                     <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
                 </div>
             );
-        } else if (this.props.agent === 'carlos') {
+        } else if (this.props.agent === 'Carlos') {
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Only 3 Steps away!</h1>
@@ -179,7 +178,7 @@ class Reviews extends Component {
                     <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
                 </div>
             );
-        } else if (this.props.agent === 'patty') {
+        } else if (this.props.agent === 'Patty') {
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Only 3 Steps away!</h1>
@@ -220,7 +219,7 @@ class Reviews extends Component {
                     <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
                 </div>
             );
-        } else if (this.props.agent === 'amanda') {
+        } else if (this.props.agent === 'Amanda') {
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Only 3 Steps away!</h1>

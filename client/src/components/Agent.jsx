@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Img from 'react-image';
-import $ from 'jquery';
 
 class Agent extends Component {
     constructor(props) {
@@ -81,31 +80,31 @@ class Agent extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <a id="danielAgent" onClick={() => this.setRerouteDaniel('daniel', 'https://i.imgur.com/8S2LxZW.png')}><Img  src={this.state.daniel1} width="300px" height="300px" /></a>
+                                <a id="danielAgent" onClick={() => this.setRerouteDaniel('Daniel', 'https://i.imgur.com/8S2LxZW.png')}><Img  src={this.state.daniel1} width="300px" height="300px" /></a>
                                 <p>Daniel Del Real</p>
                             </div>
                             <div className="col">
-                                <a id="andyAgent" onClick={() => this.setRerouteAndy('andy', 'https://i.imgur.com/SUxwTcY.png')}><Img src={this.state.andy1} width="300px" height="300px" /></a>
+                                <a id="andyAgent" onClick={() => this.setRerouteAndy('Andy', 'https://i.imgur.com/SUxwTcY.png')}><Img src={this.state.andy1} width="300px" height="300px" /></a>
                                 <p>Indalecio 'Andy' Del Real</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <a id="carlosAgent" onClick={() => this.setRerouteCarlos('carlos', 'https://i.imgur.com/9wxoV53.png')}><Img src={this.state.carlos1} width="300px" height="300px" /></a>
+                                <a id="carlosAgent" onClick={() => this.setRerouteCarlos('Carlos', 'https://i.imgur.com/9wxoV53.png')}><Img src={this.state.carlos1} width="300px" height="300px" /></a>
                                 <p>Carlos Gutierrez</p>
                             </div>
                             <div className="col">
-                                <a id="donAgent" onClick={() => this.setRerouteDon('don', 'https://i.imgur.com/kCSX8n2.png')}><Img src={this.state.don1} width="300px" height="300px" /></a>
+                                <a id="donAgent" onClick={() => this.setRerouteDon('Don', 'https://i.imgur.com/kCSX8n2.png')}><Img src={this.state.don1} width="300px" height="300px" /></a>
                                 <p>Don Wright</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <a id="pattyAgent" onClick={() => this.setReroutePatty('patty', 'https://i.imgur.com/HXBk1fm.png')}><Img src={this.state.patty1} width="300px" height="300px" /></a>
+                                <a id="pattyAgent" onClick={() => this.setReroutePatty('Patty', 'https://i.imgur.com/HXBk1fm.png')}><Img src={this.state.patty1} width="300px" height="300px" /></a>
                                 <p>Patricia Servin-Martinez</p>
                             </div>
                             <div className="col">
-                                <a id="amandaAgent" onClick={() => this.setRerouteAmanda('amanda', 'https://i.imgur.com/Qm80Du2.png')}><Img src={this.state.amanda1} width="300px" height="300px" /></a>
+                                <a id="amandaAgent" onClick={() => this.setRerouteAmanda('Amanda', 'https://i.imgur.com/Qm80Du2.png')}><Img src={this.state.amanda1} width="300px" height="300px" /></a>
                                 <p>Amanda Stallcup</p>
                             </div>
                         </div>
