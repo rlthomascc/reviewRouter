@@ -73,7 +73,7 @@ class Agent extends Component {
         return (
             <div id="agentForm" onSubmit={this.reroute.bind(this)}>
                 <form id="agentSelectForm">
-                    <h1 id="agentHeader">Which Agent Are You Currently Working With?</h1>
+                    <h1 id="agentHeader">Which Group Member would you like to leave a Review for?</h1>
                     <p><i>Select your agent below.</i></p>
                     <br></br>
                     <br></br>
