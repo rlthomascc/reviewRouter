@@ -4,7 +4,6 @@ const db = require('../database/index.js');
 
 let app = express();
 
-app.listen(process.env.PORT || port) //ADDED
 app.use(express.static(__dirname + '/../client/dist'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -18,7 +17,7 @@ app.post('/review', (req, res) => {
 
 let port = 3000;
 
-app.listen(port, function() {
+app.listen(process.env.PORT || port, function() {
   console.log(`listening on port ${port}`);
 });
 
