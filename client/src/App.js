@@ -53,7 +53,7 @@ class App extends Component {
             return (
                 <div>
                     <Navbar />
-                    <Reviews bio={this.state.bio}/>
+                    <Reviews bio={this.state.bio} agent={this.state.agent}/>
                     <Footer />
                 </div>
             );
