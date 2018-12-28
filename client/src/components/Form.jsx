@@ -22,7 +22,7 @@ class Form extends Component {
     closeModal() {
         this.setState({
             visible : false
-        });
+        })
     }
 
 
