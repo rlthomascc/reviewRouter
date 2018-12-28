@@ -4,6 +4,7 @@ const db = require('../database/index.js');
 
 let app = express();
 
+app.listen(process.env.PORT || port) //ADDED
 app.use(express.static(__dirname + '/../client/dist'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
