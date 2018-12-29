@@ -2,7 +2,6 @@
   "name": "reviewrouter",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
   "scripts": {
     "react": "webpack -d --watch",
     "server": "nodemon server/index.js rs",
