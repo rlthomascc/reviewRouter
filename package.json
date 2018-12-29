@@ -5,8 +5,8 @@
   "main": "server/index.js",
   "scripts": {
     "react": "webpack -d --watch",
-    "server": "nodemon server/index.js rs --exec babel-node",
-    "start": "babel-node server/index.js"
+    "server": "nodemon server/index.js rs",
+    "start": "node server/index.js rs"
   },
   "author": "Beth Johnson",
   "license": "ISC",
