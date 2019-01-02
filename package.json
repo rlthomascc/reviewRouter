@@ -5,7 +5,11 @@
   "scripts": {
     "react": "webpack -d --watch",
     "server": "nodemon server/index.js rs",
-    "start": "npm install && npm install --dev && npm run react && node server/index.js rs"
+    "start": "npm install && npm install --only=dev && npm run react && node server/index.js rs"
+  },
+  "engines": {
+    "node": "5.0.0",
+    "npm": "4.6.1"
   },
   "author": "Beth Johnson",
   "license": "ISC",
