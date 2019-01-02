@@ -5,7 +5,7 @@
   "scripts": {
     "react": "webpack -d --watch",
     "server": "nodemon server/index.js rs",
-    "start": "npm install && npm run react && node server/index.js rs"
+    "start": "npm install && npm install --dev && npm run react && node server/index.js rs"
   },
   "author": "Beth Johnson",
   "license": "ISC",
