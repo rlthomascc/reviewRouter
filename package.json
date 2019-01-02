@@ -22,7 +22,7 @@
     "mongoose": "^4.13.17",
     "react-awesome-modal": "^2.0.5",
     "request": "^2.81.0",
-    "webpack": "^4.0.0"
+    "webpack": "^4.28.3"
   },
   "dependencies": {
     "css-loader": "^2.0.1",
