@@ -6,7 +6,7 @@
     "react": "webpack -d --watch",
     "server": "nodemon server/index.js rs",
     "start": "node server/index.js rs",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run react --prefix client && npm run server --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run react --prefix client"
   },
   "author": "Beth Johnson",
   "license": "ISC",
