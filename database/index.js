@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const config = require('../sensitive.js');
 require('dotenv').config();
 // mongoose.connect('mongodb://localhost/delrealgroup/Reviews');
 mongoose.connect('mongodb://TheDelRealGroup:' + process.env.pass + '@ds245357.mlab.com:45357/thedelrealgroup')
