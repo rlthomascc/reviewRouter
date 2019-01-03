@@ -8,10 +8,6 @@
     "packagejson": "npm install --only=dev",
     "start": "npm install && npm run react && node server/index.js rs"
   },
-  "engines": {
-    "node": "8.0.0",
-    "npm": "4.6.1"
-  },
   "author": "Beth Johnson",
   "license": "ISC",
   "devDependencies": {
