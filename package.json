@@ -23,6 +23,8 @@
     "request": "^2.81.0"
   },
   "dependencies": {
+    "babel-loader": "^6.3.2",
+    "babel-core": "^6.23.1",
     "dotenv": "^6.2.0",
     "file-loader": "^2.0.0",
     "css-loader": "^2.0.1",
