@@ -1,8 +1,7 @@
 {
-  "name": "reviewRouter",
+  "name": "reviewrouter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "react": "webpack -d --watch",
     "server": "nodemon server/index.js rs",
@@ -12,31 +11,31 @@
   "author": "Randy Thomas",
   "license": "ISC",
   "devDependencies": {
+    "@babel/node": "^7.2.2",
     "axios": "^0.18.0",
     "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
+    "babel-loader": "^8.0.0",
     "body-parser": "^1.18.3",
-    "express": "^4.15.0",
+    "express": "^4.16.4",
     "jquery": "^3.1.1",
-    "mongoose": "^4.9.6",
+    "mongoose": "^4.13.17",
     "react-awesome-modal": "^2.0.5",
     "request": "^2.81.0"
   },
   "dependencies": {
-    "babel-loader": "^6.3.2",
-    "babel-core": "^6.23.1",
+    "@babel/register": "^7.0.0",
+    "css-loader": "^2.0.1",
     "dotenv": "^6.2.0",
     "file-loader": "^2.0.0",
-    "css-loader": "^2.0.1",
-    "style-loader": "^0.23.1",
+    "mongoose": "^4.13.17",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-image": "^1.5.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.1",
-    "express": "^4.15.0",
-    "mongoose": "^4.9.6",
-    "webpack": "^2.2.1"
+    "react-scripts": "^2.1.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
   }
 }
