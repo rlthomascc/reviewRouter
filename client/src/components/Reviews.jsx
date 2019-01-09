@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Img from 'react-image';
+import Clipboard from 'react-clipboard.js';
 
 class Reviews extends Component {
     constructor(props) {
@@ -10,6 +11,16 @@ class Reviews extends Component {
         let copyText = document.getElementById("COPYPASTE");
         copyText.select();
         document.execCommand("copy");
+        alert("Copied the text: " + copyText.value);
+    }
+
+    getText() {
+        let copyText = document.getElementById('COPYPASTE');
+        return copyText.value
+    }
+
+    onSuccess() {
+        let copyText = document.getElementById('COPYPASTE')
         alert("Copied the text: " + copyText.value);
     }
 
@@ -39,7 +50,10 @@ class Reviews extends Component {
 
                     <div id="reviewsCopyPaste">
                     <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
-                    <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
+                    {/* <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button> */}
+                    <Clipboard className="btn btn-primary" option-text={this.getText.bind(this)} onSuccess={this.onSuccess.bind(this)}>
+                        Copy To Clipboard
+                    </Clipboard>
                     </div>
                     <br></br>
                     <br></br>
@@ -80,7 +94,10 @@ class Reviews extends Component {
 
                     <div id="reviewsCopyPaste">
                     <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
-                    <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
+                    {/* <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button> */}
+                    <Clipboard className="btn btn-primary" option-text={this.getText.bind(this)} onSuccess={this.onSuccess.bind(this)}>
+                        Copy To Clipboard
+                    </Clipboard>
                     </div>
                     <br></br>
                     <br></br>
@@ -121,7 +138,10 @@ class Reviews extends Component {
 
                     <div id="reviewsCopyPaste">
                     <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
-                    <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
+                    {/* <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button> */}
+                    <Clipboard className="btn btn-primary" option-text={this.getText.bind(this)} onSuccess={this.onSuccess.bind(this)}>
+                        Copy To Clipboard
+                    </Clipboard>
                     </div>
                     <br></br>
                     <br></br>
@@ -162,7 +182,10 @@ class Reviews extends Component {
 
                     <div id="reviewsCopyPaste">
                     <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
-                    <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
+                    {/* <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button> */}
+                    <Clipboard className="btn btn-primary" option-text={this.getText.bind(this)} onSuccess={this.onSuccess.bind(this)}>
+                        Copy To Clipboard
+                    </Clipboard>
                     </div>
                     <br></br>
                     <br></br>
@@ -203,7 +226,10 @@ class Reviews extends Component {
 
                     <div id="reviewsCopyPaste">
                     <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
-                    <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
+                    {/* <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button> */}
+                    <Clipboard className="btn btn-primary" option-text={this.getText.bind(this)} onSuccess={this.onSuccess.bind(this)}>
+                        Copy To Clipboard
+                    </Clipboard>
                     </div>
                     <br></br>
                     <br></br>
@@ -244,7 +270,10 @@ class Reviews extends Component {
 
                     <div id="reviewsCopyPaste">
                     <textarea className="form-control" id="COPYPASTE" rows="3" value={this.props.bio}required/>
-                    <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button>
+                    {/* <button className="btn btn-primary" onClick={this.copyData}>Copy To Clipboard</button> */}
+                    <Clipboard className="btn btn-primary" option-text={this.getText.bind(this)} onSuccess={this.onSuccess.bind(this)}>
+                        Copy To Clipboard
+                    </Clipboard>
                     </div>
                     <br></br>
                     <br></br>
