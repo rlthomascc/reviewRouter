@@ -8,7 +8,7 @@
     "packagejson": "npm install --only=dev",
     "start": "webpack && node server/index.js"
   },
-  "author": "Beth Johnson",
+  "author": "Randy Thomas",
   "license": "ISC",
   "devDependencies": {
     "@babel/node": "^7.2.2",
