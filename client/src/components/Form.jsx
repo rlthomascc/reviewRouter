@@ -164,7 +164,7 @@ class Form extends Component {
                     </div>
                     <br></br>
 
-                    <button className="btn btn-primary btn-lg" type="submit" >Submit</button>
+                    <button className="btn btn-primary btn-lg" type="submit" >Next Step</button>
                 </form>
                 <br></br>
                 <input id="contest" type="button" value="*Click here to see contest rules." onClick={() => this.openModal()} />
