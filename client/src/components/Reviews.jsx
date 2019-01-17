@@ -58,10 +58,10 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
-                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                         <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZUyzjp1enu0etl_67ces" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/daniel-del-real_modesto_ca_1204657_073494348" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
+                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
+                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                     </div>
                     <br></br>
                     <br></br>
@@ -102,10 +102,10 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
-                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                         <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZU11dmxkbycqozt_634pd" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/don-wright_modesto_ca_2990901_762044528" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
+                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
+                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                     </div>
                     <br></br>
                     <br></br>
@@ -146,10 +146,10 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
-                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                         <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZUzeuvi4q8vpxl_adn9b" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/daniel-del-real_modesto_ca_1204657_073494348" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
+                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
+                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                     </div>
                     <br></br>
                     <br></br>
@@ -190,10 +190,10 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
-                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                         <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZUxlg6yk8n2cy1_9hc6g" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/daniel-del-real_modesto_ca_1204657_073494348" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
+                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
+                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                     </div>
                     <br></br>
                     <br></br>
@@ -234,10 +234,10 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
-                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                         <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZU116msxtuqr8cp_9fxlz" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/daniel-del-real_modesto_ca_1204657_073494348" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
+                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
+                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                     </div>
                     <br></br>
                     <br></br>
@@ -278,10 +278,10 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
-                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                         <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZUz7w40pq8jcax_4lr3f" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/indalecio-del-real_modesto_ca_1680134_681144528" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
+                        <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
+                        <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
                     </div>
                     <br></br>
                     <br></br>
