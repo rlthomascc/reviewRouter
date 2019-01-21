@@ -136,7 +136,7 @@ class Form extends Component {
                     <br></br>
 
                     <div >
-                        <label ><b>Please provide your comments about your Real Estate experience, the people you worked with at <br></br>
+                        <label ><b>Please provide your Review comments about your Real Estate experience, the people you worked with at <br></br>
                         The Del Real Group, or any suggestions you may have.</b></label>
                         <textarea className="form-control" id="comments" rows="3" required/>
                     </div>
@@ -159,7 +159,7 @@ class Form extends Component {
 
                     <div className="form-group ">
                         <label ><i>The Del Real Group is always looking for ways to improve.</i><br></br>
-                        <b>Is there anything we can improve on?</b></label>
+                        <b>What can we do better? </b><i>( If anything :) )</i></label>
                         <input type="text" className="form-control" id="improvements" required />
                     </div>
                     <br></br>

@@ -25,10 +25,15 @@ class App extends Component {
 
     setAgent(router, agent) {
         console.log(router, 'ROUTER', agent, 'AGENT')
-        this.setState({
-            router: router,
-            agent: agent,
-        })
+        if (agent === '-') {
+            alert('Please select a Realtor®')
+        } else {
+
+            this.setState({
+                router: router,
+                agent: agent,
+            });
+        }
         this.renderView()
     }
 
