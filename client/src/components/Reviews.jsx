@@ -31,7 +31,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>
@@ -75,7 +75,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>
@@ -119,7 +119,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>
@@ -163,7 +163,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>
@@ -207,7 +207,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>
@@ -251,7 +251,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>
@@ -295,7 +295,7 @@ class Reviews extends Component {
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
                     <br></br>
                     <h4 id="step">Step 1:</h4>
-                    <h4>Copy your review by selecting the <i>'Copy To Clipboard'</i> button.</h4>
+                    <h4>Copy your review by selecting the <i className="text-primary">'Copy To Clipboard'</i> button.</h4>
                     <br></br>
 
                     <h4 id="step">Step 2:</h4>

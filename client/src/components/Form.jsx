@@ -159,8 +159,8 @@ class Form extends Component {
 
                     <div className="form-group ">
                         <label ><i>The Del Real Group is always looking for ways to improve.</i><br></br>
-                        <b>What can we do better? </b><i>( If anything :) )</i></label>
-                        <input type="text" className="form-control" id="improvements" required />
+                        <b>What can we do better? </b><i>(If anything.)  :) </i></label>
+                        <input type="text" className="form-control" id="improvements"/>
                     </div>
                     <br></br>
 

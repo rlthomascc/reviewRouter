@@ -10,7 +10,7 @@ class Footer extends Component {
             <nav id="navbar" className="navbar fixed-bottom navbar-light bg-dark">
             <div id="footer">
             <br></br>
-                <p><i>© 2018 - The Del Real Group. All Rights Reserved. <br></br>
+                <p><i>© 2019 - The Del Real Group. All Rights Reserved. <br></br>
                         DRE Agent Lic. No. 01423976</i></p>
             </div>
             <div>
