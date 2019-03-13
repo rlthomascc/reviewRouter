@@ -12,6 +12,7 @@ class Agent extends Component {
             patty1: "https://i.imgur.com/BkqWKjC.png",
             amanda1: "https://i.imgur.com/NFJgzHz.png",
             joseph1: "https://i.imgur.com/NC56MmH.png",
+            jennifer1: "https://i.imgur.com/LQmUbpf.jpg",
             reroute: '-'
         }
     }
@@ -70,6 +71,10 @@ class Agent extends Component {
                             </div>
                         </div>
                         <div className="row">
+                            <div className="col">
+                                <a id="jenniferAgent" onClick={() => this.setReroute('Jennifer')}><Img src={this.state.reroute === 'Jennifer' ? 'https://i.imgur.com/1aL6Nwi.jpg' : this.state.jennifer1 } width="250px" height="250px" /></a>
+                                <p><b><br />Jennifer Edwards</b> <br />Realtor®</p>
+                            </div>
                             <div className="col">
                                 <a id="josephAgent" onClick={() => this.setReroute('Joseph')}><Img src={this.state.reroute === 'Joseph' ? 'https://i.imgur.com/Am28IWy.png' : this.state.joseph1 } width="250px" height="250px" /></a>
                                 <p><b><br />Joseph Bondi, CRS</b> <br />Senior Advisor</p>
