@@ -13,6 +13,8 @@ class Agent extends Component {
             amanda1: "https://i.imgur.com/NFJgzHz.png",
             joseph1: "https://i.imgur.com/NC56MmH.png",
             jennifer1: "https://i.imgur.com/LQmUbpf.jpg",
+            chris1: "https://i.imgur.com/O83e80Z.jpg",
+            michael1: "https://i.imgur.com/rxtf6II.jpg",
             reroute: '-'
         }
     }
@@ -70,6 +72,24 @@ class Agent extends Component {
                                 <p><b>Amanda Stallcup</b> <br />Realtor®</p>
                             </div>
                         </div>
+
+                        <div className="row">
+                            <div className="col">
+                                <a id="pattyAgent" onClick={() => this.setReroute('Chris')}><Img src={this.state.reroute === 'Chris' ? 'https://i.imgur.com/F9M3hCt.jpg' : this.state.chris1 } width="250px" height="250px" /></a>
+                                <br />
+                                <br />
+
+                                <p><b>Chris Sauls</b> <br />Realtor®</p>
+                            </div>
+                            <div className="col">
+                                <a id="amandaAgent" onClick={() => this.setReroute('Michael')}><Img src={this.state.reroute === 'Michael' ? 'https://i.imgur.com/Hwzlb7q.jpg' : this.state.michael1} width="250px" height="250px" /></a>
+                                <br />
+                                <br />
+
+                                <p><b>Michael Meneses</b> <br />Realtor®</p>
+                            </div>
+                        </div>
+
                         <div className="row">
                             <div className="col">
                                 <a id="jenniferAgent" onClick={() => this.setReroute('Jennifer')}><Img src={this.state.reroute === 'Jennifer' ? 'https://i.imgur.com/1aL6Nwi.jpg' : this.state.jennifer1 } width="250px" height="250px" /></a>
