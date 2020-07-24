@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Img from 'react-image';
+import Clipboard from 'react-clipboard.js';
 
 class Reviews extends Component {
     constructor(props) {
