@@ -20,7 +20,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jquery": "^3.1.1",
-    "mongoose": "^4.13.17",
+    "mongoose": "^5.7.5",
     "react-awesome-modal": "^2.0.5",
     "request": "^2.81.0",
     "webpack": "^4.28.3"
@@ -37,7 +37,7 @@
     "react-scripts": "^2.1.2",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
-    "mongoose": "^4.13.17",
+    "mongoose": "^5.7.5",
     "webpack": "^4.28.3"
   }
 }
