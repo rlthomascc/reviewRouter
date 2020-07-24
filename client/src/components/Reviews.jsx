@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Img from 'react-image';
-import Clipboard from 'react-clipboard.js';
 
 class Reviews extends Component {
     constructor(props) {
@@ -377,7 +376,7 @@ class Reviews extends Component {
                     <p id="almostDoneParagraph"><i>Thank you for putting your trust in The Del Real Group for your Real Estate needs!</i></p>
                 </div>
             );
-        } else if (this.props.agent === "Chris") {
+        } else if (this.props.agent === "Randy") {
             return (
                 <div id="reviews">
                     <h1 id="almostDone">Almost done... Just 3 Steps away!</h1>
@@ -410,7 +409,7 @@ class Reviews extends Component {
                     <br></br>
                     <br></br>
                     <div id="reviewButtons">
-                        <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZUvrafgklrmy2x_2xcn4" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
+                        <a id="zillowReview" href="https://www.zillow.com/reviews/write/?s=X1-ZUtn6mjbiw8bnt_17jmc" target="_blank"><Img src="https://i.imgur.com/QQTUlDf.png" width="300px" height="170px" /></a>
                         <a id="realtorReview" href="https://www.realtor.com/realestateagents/daniel-del-real_modesto_ca_1204657_073494348" target="_blank"><Img src="https://i.imgur.com/UYvHAQz.png" width="300px" height="170px" /></a>
                         <a id="googleReview" href="https://www.google.com/search?client=firefox-b-1-ab&output=search&q=Del+Real+Group+-+PMZ+Inc&ludocid=16470356922505957134&kgs=e62b44b3b3e9a569&shndl=-1&source=sh/x/kp/local&entrypoint=sh/x/kp/local" target="_blank"><Img src="https://i.imgur.com/fiABxYH.png" width="300px" height="170px" /></a>
                         <a id="yelpReview" href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank"><Img src="https://i.imgur.com/8HgaHs6.png" width="300px" height="170px" /></a>
